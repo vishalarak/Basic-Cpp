@@ -1,9 +1,7 @@
 // Program To Print The Sum Of Digit Of The given number
-
 #include<iostream>
 #include<string.h>
 using namespace std;
-
 int main()
 {
     char n[20];
@@ -16,7 +14,6 @@ int main()
     {
         sum += n[i] - '0';    // This line converts and seperate the string to number
     }
-    
     cout << sum;
     return 0;
 }
